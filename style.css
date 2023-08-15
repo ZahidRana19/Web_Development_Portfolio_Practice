@@ -1,0 +1,67 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+.text-highlight {
+    color: orange;
+}
+h1 {
+    font-size: 50px;
+}
+p {
+    color: gray;
+    margin-bottom: 25px;
+}
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img {
+    width: 90%;
+    margin-top: 10px;
+}
+.upper-part {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+section {
+    height: 600px;
+}
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(45deg, orange, red);
+    padding: 12px 30px;
+    color: white;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.middle-part {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.shadow-box {
+    box-shadow: 10px 10px 40px gray;
+    height: 60%;
+    background-color: white;
+}
+.bottom-part {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#left-box {
+    border-left: 7px solid;
+    border-image: linear-gradient(160deg, orange, red);
+    border-image-slice: 1;
+}
+#right-box {
+    border-left: 7px solid;
+    border-image: linear-gradient(160deg, cornflowerblue, blue);
+    border-image-slice: 1;
+}
+footer p {
+    text-align: center;
+}
